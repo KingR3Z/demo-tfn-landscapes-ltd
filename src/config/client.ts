@@ -79,10 +79,10 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Alan Hunter", rating: 5, text: "TFN have done a fantastic job of installing many trees and shrubs around the homelands park. Hardworking guys that have make the road look great!  ", date: "4 years ago" },
-    { name: "Hannah Redhead", rating: 5, text: "Since posting my first review TFN Landscapes have gone out of their way to sort out issues with my partner. Thank you for your service and working hard to fix the issues. ", date: "Edited 5 years ago" },
-    { name: "Mattsue37 Cox", rating: 5, text: "Great experience ", date: "2 years ago" },
-    { name: "Brian Heasman", rating: 5, text: "PositiveResponsiveness, Punctuality, Quality, Professionalism, Value…  ", date: "2 years ago" },
+    { name: "Harry Coyne", rating: 1, text: "Just not prepped properly at all before laying grass", date: "a month ago" },
+    { name: "Mattsue37 Cox", rating: 5, text: "Great experience", date: "2 years ago", badge: "Local Guide" },
+    { name: "Alan Hunter", rating: 5, text: "TFN have done a fantastic job of installing many trees and shrubs around the homelands park. Hardworking guys that have make the road look great!", date: "4 years ago" },
+    { name: "Hannah Redhead", rating: 4, text: "Since posting my first review TFN Landscapes have gone out of their way to sort out issues with my partner. Thank you for your service and working hard to fix the issues.", date: "Edited 5 years ago", badge: "Local Guide" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
